@@ -1,0 +1,18 @@
+# Ignore the specific datasets folder
+datasets/
+
+# Ignore ALL CSV files (this covers event_info.csv and comma_event_info.csv)
+*.csv
+
+# Ignore Jupyter Notebook temporary checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Ignore Python virtual environments (I noticed you are using one called wf_pm_env)
+wf_pm_env/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
