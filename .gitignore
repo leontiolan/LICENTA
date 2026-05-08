@@ -8,11 +8,11 @@ datasets/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
-# Ignore Python virtual environments (I noticed you are using one called wf_pm_env)
-wf_pm_env/
+
 venv/
 env/
 
 # Ignore Python cache files
 __pycache__/
 *.pyc
+
